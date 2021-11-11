@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+/* ------------------------------------- */
+/* --------------NAVEGADOR-------------- */
+/* ------------------------------------- */
+
+.cabecera {
+    width: 100%;
+    height: 80px;
+    padding: 0 16px;
+    position: fixed;
+    background: #FFFFFF;
+    top: 0;
+    z-index: 999;
+}
+
+.separador {
+    height: 80px;
+}
+
+.cabecera .navegador {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+.cabecera .navegador .icono {
+    padding: 12px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera .navegador .icono:hover {
+    background: #EEEEEE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cabecera .navegador .icono i {
+    font-size: 25px;
+    color: #e60023;
+}
+
+.cabecera .navegador .opcion-01 {
+    display: flex;
+    align-items: center;
+}
+
+.cabecera .navegador .opcion-01 a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 2500;
+    padding: 15px 15px;
+}
+
+.cabecera .navegador .opcion-01 a:hover {
+    background: #EEEEEE;
+    border-radius: 22px;
+}
+
+.cabecera .navegador .opcion-01 .hoy:hover {
+    background: #EEEEEE;
+    border-radius: 22px;
+}
+
+.cabecera .navegador .buscador {
+    width: 73%;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    background: #EEEEEE;
+    border-radius: 23px;
+}
+
+.cabecera .navegador .buscador:active {
+    outline: 4px solid #83b8ff;
+}
+
+.cabecera .navegador .buscador:hover {
+    background: #e4e4e4;
+}
+
+.cabecera .navegador .buscador i {
+    font-size: 16px;
+    font-weight: 2500;
+    color: #767676;
+}
+
+.cabecera .navegador .buscador input {
+    width: 100%;
+    padding: 0 10px;
+    border-style: none;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+}
+
+.cabecera .navegador .opcion-02 {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.cabecera .navegador .opcion-02 .perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+
+.cabecera .navegador .opcion-02 .perfil:hover {
+    background: #EEEEEE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cabecera .navegador .opcion-02 .perfil img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    outline: 2px solid #000000;
+    padding: 1px;
+}
+
+.cabecera .navegador .opcion-02 .perfil img:active {
+    
+    border-radius: 50%;
+}
+
+.cabecera .navegador .opcion-02 .campana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    
+}
+
+.cabecera .navegador .opcion-02 .campana:active {
+    outline: 4px solid #83b8ff;
+    border-radius: 50%;
+}
+
+.cabecera .navegador .opcion-02 .campana:hover {
+    background: #EEEEEE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cabecera .navegador .opcion-02 .chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+
+.cabecera .navegador .opcion-02 .chat:active {
+    outline: 4px solid #83b8ff;
+    border-radius: 50%;
+}
+
+.cabecera .navegador .opcion-02 .chat:hover {
+    background: #EEEEEE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cabecera .navegador .opcion-02 .angulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.cabecera .navegador .opcion-02 .angulo:active {
+    outline: 4px solid #83b8ff;
+    border-radius: 50%;
+}
+
+.cabecera .navegador .opcion-02 .angulo:hover {
+    background: #EEEEEE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cabecera .navegador .opcion-02 i {
+    font-size: 25px;
+    color: #767676;
+}
+
+.cabecera .navegador .opcion-02 .fa-angle-down {
+    font-size: 17px;
+    color: #767676;
+}
+
+/* ------------------------------------- */
+/* --------------PRINCIPAL-------------- */
+/* ------------------------------------- */
+
+.information {
+    width: 50%;
+    height: 320px;
+    padding: 10px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.information h1 {
+    font-size: 36px;
+}
+
+.information p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.information .options {
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+}
+
+.information .options a {
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;
+    background: #EEEEEE;
+    border-radius: 22px;
+    font-weight: bold;
+}
+
+.information .options a:hover {
+    background: #e4e4e4;
+}
+
+.links {
+    width: 100%;
+    padding: 16px;
+    position: relative;
+}
+
+.links .desplegable {
+    margin: 16px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links .desplegable i {
+    font-size: 22px;
+    padding: 15px;
+}
+
+.links .desplegable i:hover {
+    background: #EEEEEE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.final {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.final p {
+    font-size: 16px;
+}
+
+.final a {
+    text-decoration: none;
+    padding: 15px;
+    background: #EEEEEE;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 22px;
+}
+
+.final a:hover {
+    background: #e4e4e4;
+}
+
+.fa-plus.second {
+    font-size: 22px;
+    padding: 16px 18px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px #e0e0e0;
+    position: absolute;
+    top: 35%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.fa-plus.second:hover {
+    background: #EEEEEE;
+}
+
+.fa-question {
+    font-size: 22px;
+    padding: 16px 19px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px #e0e0e0;
+    position: absolute;
+    top: 62%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.fa-question:hover {
+    background: #EEEEEE;
+}
