@@ -288,6 +288,36 @@
     display: none;
 }
 
+.fa-plus.second {
+    font-size: 22px;
+    padding: 16px 18px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 100px;
+    right: 2%;
+    cursor: pointer;
+}
+
+.fa-plus.second:hover {
+    background: #EEEEEE;
+}
+
+.fa-question {
+    font-size: 22px;
+    padding: 16px 19px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 35px;
+    right: 2%;
+    cursor: pointer;
+}
+
+.fa-question:hover {
+    background: #EEEEEE;
+}
+
 /* ------------------------------------- */
 /* -------------MEDIA QUERIES----------- */
 /* ------------------------------------- */
@@ -518,6 +548,10 @@
         width: 22px;
         height: 22px;
         border-radius: 50%;
+    }
+
+    .links {
+        display: none;
     }
 
 }
